@@ -12,7 +12,6 @@ function makeCalculator() {
     multiply: (current, num) => current * num,
     divide: (current, num) => {
       if (num === 0) {
-        console.log("Помилка!на нуль ділити не можна!");
         return current;
       }
       return current / num;
